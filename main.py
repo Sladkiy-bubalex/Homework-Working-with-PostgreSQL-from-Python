@@ -324,3 +324,4 @@ if __name__ == "__main__":
             print(cur.fetchone())
 
             find_client(cur, name='Dmitriy')
+    conn.close()
